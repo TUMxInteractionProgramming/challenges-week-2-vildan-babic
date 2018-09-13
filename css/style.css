@@ -1,1 +1,83 @@
+/*-- #2 #css #elements */
+
+    /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+    */
+
+    /********************************/
+    /***    G L O B A L  styles   ***/
+    /********************************/
+    
+    * { /* #2 #font #faces */
+        font-family: 'Arial', sans-serif;
+        margin: 0px; /* Remove ugly spacing between all components */
+        padding: 0px;
+    }
+    
+    body {  /* #2 #colorful #background */
+        background-color: #F5F5F5;
+    }
+    
+    /********************************/
+    /***       App bar styles     ***/
+    /********************************/
+
+    h1 { /* #2 #colourful #app-bar */
+        background-color: #3F51B5;
+        color: white;
+    }
+    
+    /********************************/
+    /***    Channes list styles   ***/
+    /********************************/
+
+    ul { /* #2 #colorful #channelandchat */
+        background-color: white;
+      }
+    /*styles for chat area*/
+    p {
+        /* #2 #colorful #channelandchat */
+        background-color: white;
+    }
+    strong {
+        /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+        text-transform: uppercase;
+    }
+
+    /********************************/
+    /***      Tab bar styles      ***/
+    /********************************/
+
+    button { 
+        background-color: white;
+        border: none;
+        font-size: 13px;
+        text-transform: uppercase;
+    }          
+
+    /********************************/
+    /***      Messages styles     ***/
+    /********************************/
+
+
+    h3 {
+        /* #2 #font #metadata is now medium */
+        font-size: medium;
+    }
+    em {
+        /* #2 #font #remaining overrides the default italic appearance of em elements*/
+        font-size: larger;
+        font-style: normal;
+    }
+    div.chatview { 
+        width: 80%; /* Chat view witdh 80% */
+    }
+    a {
+        color: black; /* Change the preset link color to primary text color */
+    }
 
